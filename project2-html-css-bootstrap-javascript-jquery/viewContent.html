@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+    <title>View Content</title>
+</head>
+
+<body>
+    <header class="formContent">
+        <div class="row">
+            <div class="col-10">CMC</div>
+            <div class="col-2 text-right">
+                <div class="btn-group mt-n1">
+                    <button type="button" class="btn btn_user dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-user" aria-hidden="true" style="color: royalblue;"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <button class="dropdown-item" type="button"> <i class="fa fa-user mr-1" aria-hidden="true"></i>User Profile</button>
+                        <button class="dropdown-item" type="button"><i class="fa fa-sign-out mr-1" aria-hidden="true"></i>Logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="formContent_body">
+        <div class="row formContent_row mx-0">
+            <div class="col-2 px-0 formContent_menu">
+                <div class="form_body_search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Search">
+                        <div class="input-group-prepend">
+                            <button class="input-group-text btn_search"><i class="fa fa-search" aria-hidden="true"></i></button>                        </div>
+                    </div>
+                </div>
+                <div class="form_body_menu">
+                    <div class="card">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item list_menu">
+                                <a href="viewContent.html"><i class="fa fa-table mr-1" aria-hidden="true"></i>View content</a></li>
+                            <li class="list-group-item list_menu">
+                                <a href="formContent.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Form content</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 formContent_add">
+                <h2 class="form_add-title">View Content</h2>
+                <div class="card">
+                    <div class="card-header">
+                        View Content List
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-striped table_view_content">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Title </th>
+                                    <th scope="col">Brief </th>
+                                    <th scope="col">Create Date </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                    <td>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officaia deserunt mollit anim id est laborum</td>
+                                    <td>31/08/2016 <br> 12:03</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                    <td>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officaia deserunt mollit anim id est laborum</td>
+                                    <td>31/08/2016 <br> 12:03</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Lorem ipsum dolor sit amet</td>
+                                    <td>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officaia deserunt mollit anim id est laborum</td>
+                                    <td>31/08/2016 <br> 12:03</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+</body>
+
+</html>

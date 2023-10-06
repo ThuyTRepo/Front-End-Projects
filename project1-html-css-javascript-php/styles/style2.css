@@ -1,0 +1,107 @@
+/* processEOI */
+h1, h2, h3{
+  color: #7fb421 ;
+
+}
+.processEOI h2{
+    text-align: center ; 
+    font-size: 30px ;
+    margin: 20px;
+    color: #7fb421;
+  }
+  h3{
+    font-size: 20px;
+  }
+  
+  .processEOI {
+    margin: 10% 20% ;
+    text-align: center ;
+    border: 3px solid #7fb421 ;
+  }
+  .processEOI a{
+    color: #7fb421;
+  }
+  
+  /* table {
+      border-collapse: collapse;
+  }
+
+  table, th, td {
+    border: 2px solid #7fb421;
+    padding: 5px;
+
+  }
+
+  button{
+    background-color: #a2d945;
+    border: #a2d945;
+    border-radius: 3px;
+  } */
+  body {
+    background-color: white;
+    color: #a2d945;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  button,
+  select {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  input[type="text"]{
+    width: 200px;
+  }
+  button[type="submit"] {
+    background-color: #a2d945;
+    color: white;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: black;
+  }
+  
+  th,
+  td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #a2d945;
+  }
+  
+  th {
+    background-color: #a2d945;
+    color: white;
+  }
+  
+  form button,
+  form select {
+    margin-left: 10px;
+  }
+  
+  .container{
+    justify-content:space-between;
+    display: flex;
+    margin: 0 20px;
+  }

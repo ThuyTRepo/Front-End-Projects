@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+    <script src="register.js"></script>
+</head>
+
+<body>
+    <div class="login_page">
+
+        <!-- form login -->
+        <form>
+            <div class="login_card">
+                <div class="login_card_header">
+                    Register
+                </div>
+                <div class="login_card_body">
+                    <!-- form input email and password -->
+                    <input class="form_login" type="username" id="userReg" name="username" placeholder="User name"> <br>
+                    <input class="form_login" type="email"  name="email" id="emailReg"placeholder="E-mail"> <br>
+                    <input class="form_login" type="password" id="passReg" name="password" placeholder="Password"> <br>
+                    <input class="form_login" type="password" id="reapassReg" name="repassword" placeholder="Re Password"> <br>
+
+                    <!-- button login -->
+                    <button class="btn_login" onclick="validateFormRegister()" type="button">Register</button> <br>
+
+                    <!-- link  -->
+                    <a class="link_login" href="login.html">Click here to Login</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

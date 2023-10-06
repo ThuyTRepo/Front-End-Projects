@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js"></script>
+    <title>Login page</title>
+</head>
+
+<body>
+
+    <div class="login_page">
+
+        <!-- form login -->
+        <div class="login_card">
+            <div class="login_card_header">
+                Please Sign In
+            </div>
+
+            <form>
+                <div class="login_card_body">
+                    <!-- form input email and password -->
+                    <input class="form_login" id="emailLogin" type="email"  name="email" placeholder="E-mail"> <br>
+                    <input class="form_login" id="passLogin" type="password" name="password" placeholder="Password"> <br>
+
+                    <!-- checkbox remember me -->
+                    <input type="checkbox" id="remember" name="remember" value="remember">
+                    <label for="remember"> Remember Me</label><br>
+
+                    <!-- button login , khi click sẽ gọi hàm validateFormLogin -->
+                    <input class="btn_login" onclick="validateFormLogin()" type="button" value="submit" /> <br>
+
+                    <!-- link  -->
+                    <a class="link_login" href="register.html">Click here to Register</a>
+                </div>
+
+            </form>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+    /* form content bao bọc toàn bộ  */
+    
+    .formContent {
+        background-color: #e6e6e6;
+        height: 50px;
+        padding: 0 16px;
+        line-height: 50px;
+        border-bottom: 1px solid #aeaeae;
+    }
+    /* nút search bên của col-2 */
+    
+    .form_body_search {
+        padding: 16px;
+        border-bottom: 1px solid #aeaeae;
+    }
+    /* icon search  */
+    
+    .btn_search {
+        background-color: #fff;
+        border-left: 0;
+    }
+    
+    .form_body_menu .card {
+        border: 0;
+    }
+    /* chỉnh màu chữ của menu ( màu chữ View content và form content) */
+    
+    .form_body_menu li {
+        color: #15c;
+    }
+    /* chỉnh màu nền của phần search */
+    
+    .formContent_menu {
+        background-color: #e6e6e6;
+    }
+    /* chỉnh màu nền của phần menu */
+    
+    .form_body_menu .list-group-item {
+        background-color: #e6e6e6;
+    }
+    /* màu của menu khi được click vào */
+    
+    .background_link {
+        background-color: #c1c0c0!important;
+    }
+    
+    .formContent_add {
+        padding: 30px 20px;
+    }
+    /* phần titlte chính của */
+    
+    .form_add-title {
+        font-size: 30px;
+        border-bottom: 1px solid #e6e6e6;
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+    }
+    /* chỉnh chiều rộng của thẻ input */
+    
+    .formContent_add input {
+        width: 60%;
+    }
+    /* chỉnh chiều rộng của thẻ textarea */
+    
+    .formContent_add textarea {
+        width: 60%;
+    }
+    /* chỉnh chiều dài của row cho dài toàn màn hình ( 100vh trừ đi kích chiều dài của header) */
+    
+    .formContent_row {
+        height: calc(100vh - 50px);
+    }
+    /* dropdow góc trên cùng bên phải */
+    
+    .btn_user {
+        border: 0;
+        height: 50px;
+        background: #c1c0c0;
+        border-radius: 0;
+    }
+    /* chỉnh box-shadow khi focus vào cái dropdow */
+    
+    .btn_user:focus {
+        box-shadow: 0 0 0 0;
+    }
+    
+    .dropdown-toggle::after {
+        color: royalblue;
+    }
+    /* // table view content */
+    
+    .table_view_content th {
+        border-left: 1px solid #dee2e6;
+    }
+    
+    .table_view_content td {
+        border-left: 1px solid #dee2e6;
+    }
+    /* chọn th cuối cùng, và td cuối cùng để border right */
+    
+    .table_view_content th:last-child {
+        border-right: 1px solid #dee2e6;
+    }
+    
+    .table_view_content td:last-child {
+        border-right: 1px solid #dee2e6;
+    }
+
+    ._link {
+        cursor: pointer;
+    }
+
+    #loading {
+        display: block;
+        position: absolute;
+        background: #9e898950;
+        z-index: 1000;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }

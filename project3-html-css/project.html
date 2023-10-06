@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Top 1% Of Global Universities</h1>
+            <p>RMIT is a global university of technology, design and enterprise</p>
+            <a href="" class="hero-btn">Visit Us To know More</a>
+        </div>
+    </section>
+    <!--JavaScript for menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!--Course-->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>A degree from RMIT is recognised around the world.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Pre-university</h3>
+                <p>Refresh your skills before undertaking further study. You can improve your English, complete foundation studies, or explore a new subject.</p>
+            </div>
+            <div class="course-col">
+                <h3>Undergraduate</h3>
+                <p>RMIT Vietnam offers undergraduate programs across our schools of Business & Management, Creativity & Design and Science and Technology.</p>
+            </div>
+            <div class="course-col">
+                <h3>Postgraduate</h3>
+                <p>Boost your career with a postgraduate qualification. Flexible study options include graduate certificates, graduate diplomas or masters degrees.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>RMIT has three campuses and two sites in Australia, two campuses in Vietnam and a research and industry collaboration centre in Spain.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="campus.jpg">
+                <div class="layer">
+                    <h3>AUSTRALIA</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="vietnam.jpeg">
+                <div class="layer">
+                    <h3>VIETNAM</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="eur.jpeg">
+                <div class="layer">
+                    <h3>SPAIN</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Facilies-->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We offer world-class facilities. Modern classrooms, purpose-built lecture theatres, studios, laboratories and other specialist spaces provide the perfect setting to thrive.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="lib.jpeg">
+                <h3>Library</h3>
+                <p>We provide Library resources, services and facilities to support the information needs of RMIT's globally distributed student and staff community.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="playground.jpeg">
+                <h3>Playground</h3>
+                <p>There are plenty of outdoor features to enjoy, including the Keelbundoora Scarred Tree and Heritage Trail, ornamental lakes and abundant greenery and wildlife.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="prayer.jpeg">
+                <h3>Prayer Room</h3>
+                <p>RMIT is committed to supporting the religious practices of staff and students from a diverse range of faiths. Prayer rooms are available on every campus.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonials-->
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Work Integrated Learning (WIL) benefits students and organisations by integrating academic learning with practical workplace experiences.</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="student.jpeg">
+                <div>
+                    <p>"Every new turn of technology and approach seems to offer up new audiences hungry for content. RMIT is responsive to real-world media and I applaud RMIT's vision in equipping students with a confidence to step out into a crowded marketplace and to find collaborators with whom to pursue their ideas, connecting with the industry and the wider screen community."</p>
+                    <h3>Nguyen Anh Phuong</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                   
+                </div>
+                
+            </div>
+            <div class="testimonials-col">
+                <img src="st3.jpeg">
+                <div>
+                    <p>"Every new turn of technology and approach seems to offer up new audiences hungry for content. RMIT is responsive to real-world media and I applaud RMIT's vision in equipping students with a confidence to step out into a crowded marketplace and to find collaborators with whom to pursue their ideas, connecting with the industry and the wider screen community."</p>
+                    <h3>Nguyen Phuong Chi</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Call to Action-->
+    <section class="cta">
+        <h1>Enroll For Our Varius Online <br>Courses Anywhere From The World</h1>
+    </section>
+
+    <footer>
+        <img src="footer.png">
+    </footer>
+
+</body>
+
+</html>
